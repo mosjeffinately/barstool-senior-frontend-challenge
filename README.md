@@ -1,5 +1,11 @@
 # Senior Frontend Interview Challenge
 
+## Implementation Overview
+This project was created using Next.js, Chakra-UI and React Hook Form. zod is used for form schema validation.
+- Next.js scaffolding and components are located in the `app` directory.
+- Other components are located in the `components` directory. The component hierarchy is set up using the basic tenets of [Atomic Design](https://atomicdesign.bradfrost.com/).
+- Typescript types are in the `types` directory and additional utilities are in the `utils` directory.
+
 ## Build Instructions
 In the project directory, run:
 ```
