@@ -1,5 +1,27 @@
 # Senior Frontend Interview Challenge
 
+## Build Instructions
+In the project directory, run:
+```
+npm install
+```
+Note: this was built with Node.js version 20.17.0
+
+To start the development server, run:
+```
+npm run dev
+```
+
+To start the production server, run:
+```
+npm run build
+npm start
+```
+
+Point your browser at [http://localhost:3000](http://localhost:3000) and you should be all set!
+
+Plese note: on the dev server, password manager browser extensions (LastPass, et. al.) can sometimes cause hyrdration issues with Next.js.  If you receive these errors, try disabling the extension.
+
 ## Overview
 
 Welcome to the Barstool Senior Frontend Developer Interview Challenge! This challenge will focus on the bread and butter of web development: web forms. The goal is to create a form with at least 4 different field types, and implement form validation. You will have the opportunity to demonstrate how you approach building React components, organizing your project, and structuring form elements.
@@ -47,19 +69,3 @@ Feel free to use any libraries or tools you prefer—just be prepared to explain
 4. Submit the link to your repository.
 
 Good luck, and we're looking forward to seeing how you tackle this challenge!
-
-## Build Instructions
-In the project directory, run:
-```
-npm install
-```
-Note: this was built with Node.js version 20.17.0
-
-To start the development server, run:
-```
-npm run dev
-```
-
-Point your browser at (http://localhost:3000)[http://localhost:3000] and you should be all set!
-
-Plese note: on the dev server, password manager browser extensions (LastPass, et. al.) can sometimes cause hyrdration issues with Next.js.  If you receive these errors, try disabling the extension.
